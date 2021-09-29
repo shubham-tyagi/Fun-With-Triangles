@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+	--primary-color: #ef4444;
+	--secondary-color: #6b7280;
+	--off-white: #f8f0e3;
+}
+
+body {
+	margin: 0px;
+	font-family: "Open Sans", sans-serif;
+}
+
+/* ----- NavBar ------ */
+
+.navigation {
+	/* margin: auto; */
+	margin: 0rem 0rem;
+	background-color: var(--primary-color);
+	padding: 1rem;
+	border-bottom-left-radius: 1rem;
+	/* max-width: 70rem; */
+	color: var(--off-white);
+}
+
+.link-style {
+	text-decoration: none;
+	color: var(--off-white);
+}
+
+.nav-brand,
+.active-class {
+	font-weight: bold;
+}
+
+.list-non-bullets {
+	list-style: none;
+}
+
+.nav-pills {
+	text-align: right;
+	margin: 0.6rem 1rem;
+}
+
+.list-item-inline {
+	display: inline;
+	margin: 0rem 1rem;
+}
+
+/* ----------footer ----------------- */
+.footer {
+	position: relative;
+	bottom: 0;
+	margin: 0rem 0rem;
+	background-color: var(--primary-color);
+	padding: 1rem;
+	border-top-right-radius: 1rem;
+	/* width: 70rem; */
+	right: 0;
+	left: 0;
+	color: var(--off-white);
+	text-align: center;
+}
+
+.footer ul {
+	padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+	font-weight: bold;
+	font-size: large;
+}
+
+.footer .list-non-bullets {
+	list-style-type: none;
+}
+
+.footer .list-item-inline {
+	display: inline;
+}
+
+.footer .img-social {
+	width: 2rem;
+}

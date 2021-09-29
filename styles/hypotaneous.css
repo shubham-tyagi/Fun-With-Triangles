@@ -1,0 +1,40 @@
+.main {
+	max-width: 700px;
+	padding: 2rem;
+	border-radius: 2rem;
+	border: 5px solid var(--primary-color);
+	margin: 0rem auto;
+	font-weight: bold;
+}
+.navigation {
+	margin-bottom: 3rem;
+}
+.footer {
+	margin-top: 3rem;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+h1,
+h3 {
+	text-align: center;
+}
+label {
+	display: block;
+	margin: 1rem auto;
+	text-align: center;
+}
+label input {
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
+}
+button {
+	display: block;
+	max-width: 300px;
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
+	margin: 0rem auto;
+	color: white;
+	background-color: var(--primary-color);
+}
