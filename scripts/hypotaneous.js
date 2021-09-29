@@ -8,7 +8,7 @@ btnSubmit.addEventListener("click", function () {
 	}
 	let a = Number(inputValues[0].value);
 	let b = Number(inputValues[1].value);
-	if (a < 0 || b < 0) {
+	if (a <= 0 || b <= 0) {
 		writeMessage("All the values should be greater than 0.");
 		return;
 	}

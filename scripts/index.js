@@ -6,11 +6,11 @@ btnSubmit.addEventListener("click", function () {
 	let sum = 0;
 	for (let i = 0; i < 3; i++) {
 		if (inputValues[i].value == "") {
-			showMessage("cent Leave any feild empty");
+			showMessage("can't Leave any feild empty");
 			return;
 		}
 		sum += Number(inputValues[i].value);
-		if (Number(inputValues[i].value) < 0) {
+		if (Number(inputValues[i].value) <= 0) {
 			showMessage(
 				"enter the value of Angle " + Number(i + 1) + " greater than 0"
 			);

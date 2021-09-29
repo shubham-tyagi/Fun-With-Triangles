@@ -10,7 +10,7 @@ btnSubmit.addEventListener("click", function () {
 	let base = Number(inputValues[0].value);
 	let height = Number(inputValues[1].value);
 
-	if (base < 0 || height < 0) {
+	if (base <= 0 || height <= 0) {
 		writeMessage("All the values should be greater than 0.");
 		return;
 	}
