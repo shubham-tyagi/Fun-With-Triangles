@@ -16,5 +16,14 @@ btnSubmit.addEventListener("click", function (event) {
 		index++;
 		// if (value == undefined) console.log("hello");
 	}
-	message.innerHTML = "Your score is : " + score;
+	writeMessage("Your score is : " + score);
 });
+
+function writeMessage(msg) {
+	message.innerHTML = msg;
+	message.style.padding = "1rem";
+	message.style.borderRadius = "1rem";
+	message.style.backgroundColor = "var(--primary-color)";
+	message.style.color = "white";
+	message.style.textAlign = "center";
+}
